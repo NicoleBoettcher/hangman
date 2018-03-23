@@ -1,1 +1,5 @@
 # hangman
+
+hi
+yo
+fam
