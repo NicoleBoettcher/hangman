@@ -18,3 +18,100 @@ public static String randomWord ()
         return originalWord;
         
     }
+    
+    public static void print ()
+    {
+        String wrongGuesses = ("hello123");
+        //String slash = ("\\");
+        
+        if (wrongGuesses.length() == 0)
+        {System.out.println("____________");
+         System.out.println("|           |"); 
+         System.out.println("|");
+         System.out.println("|");
+         System.out.println("|");
+         System.out.println("|");
+         System.out.println("|___");
+        }
+        if (wrongGuesses.length() == 1)
+        {
+         System.out.println("____________");
+         System.out.println("|           |"); 
+         System.out.println("|           O");
+         System.out.println("|");
+         System.out.println("|");
+         System.out.println("|");
+         System.out.println("|___");
+        }
+        if (wrongGuesses.length() ==2)
+        {
+         System.out.println("____________");
+         System.out.println("|           |"); 
+         System.out.println("|           O");
+         System.out.println("|           |");
+         System.out.println("|");
+         System.out.println("|");
+         System.out.println("|___");
+        }
+        if (wrongGuesses.length() ==3)
+        {
+         System.out.println("____________");
+         System.out.println("|           |"); 
+         System.out.println("|           O");
+         System.out.println("|          /|");
+         System.out.println("|");
+         System.out.println("|");
+         System.out.println("|___");
+        }
+        if (wrongGuesses.length() ==4)
+        {
+         System.out.println("____________");
+         System.out.println("|           |"); 
+         System.out.println("|           O");
+         System.out.println("|          /|\\");
+         System.out.println("|");
+         System.out.println("|");
+         System.out.println("|___");
+        }
+        if (wrongGuesses.length() ==5)
+        {
+         System.out.println("____________");
+         System.out.println("|           |"); 
+         System.out.println("|           O");
+         System.out.println("|          /|\\");
+         System.out.println("|           |");
+         System.out.println("|");
+         System.out.println("|___");
+        }
+        if (wrongGuesses.length() ==6)
+        {
+         System.out.println("____________");
+         System.out.println("|           |"); 
+         System.out.println("|           O");
+         System.out.println("|          /|\\");
+         System.out.println("|           |");
+         System.out.println("|          /");
+         System.out.println("|___");
+        }
+        if (wrongGuesses.length() ==7)
+        {
+         System.out.println("____________");
+         System.out.println("|           |"); 
+         System.out.println("|           O");
+         System.out.println("|          /|\\");
+         System.out.println("|           |");
+         System.out.println("|          / |");
+         System.out.println("|___");
+        }
+        if (wrongGuesses.length() ==8)
+        {
+         System.out.println("____________");
+         System.out.println("|           |"); 
+         System.out.println("|           O");
+         System.out.println("|          /|\\");
+         System.out.println("|           |");
+         System.out.println("|          / \\");
+         System.out.println("|___");
+         System.out.println("YOU LOOSE!!");
+        }
+    }
